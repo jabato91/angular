@@ -1,1 +1,35 @@
-<p>registrar works!</p>
+<div class = "registrarse">
+    <div class = "input-correo">
+        <form class="form">
+            <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput 
+                    placeholder="Ex. javier@gmail.com">
+            </mat-form-field>
+        </form>
+    </div>
+    <div class = "input-contrasena">
+        <form class="form">
+            <mat-form-field class="example-full-width">
+            <mat-label>contraseña</mat-label>
+            <input type="password" matInput 
+                    placeholder="********">
+            </mat-form-field>
+        </form>
+    </div>
+    <div class = "input-repetir-contrasena">
+        <form class="form">
+            <mat-form-field class="example-full-width">
+            <mat-label> repite contraseña</mat-label>
+            <input type="password" matInput 
+                    placeholder="********">
+            </mat-form-field>
+        </form>
+    </div>
+    <div class = "botones">
+        <div class = "boton-Inicio">
+            <button routerLink="/inicio" mat-raised-button color="warn">Registrarse</button>
+        </div>
+        
+    </div>  
+</div>

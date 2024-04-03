@@ -1,0 +1,23 @@
+.registrarse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  .botones{
+    display: flex;
+    margin-top: 2%;
+}
+.boton-Inicio{
+    margin-right: 2%;
+}
+.boton-registrar{
+    margin-left: 2%;
+}
+.input-contrasena{
+    margin-top: 2%;
+}
+.input-repetir-contrasena{
+    margin-top: 2%;
+}
