@@ -15,12 +15,14 @@ import { AppComponent } from './app.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { RegistrarComponent } from './registrar/registrar.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SesionComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

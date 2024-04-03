@@ -5,7 +5,7 @@ import { RegistrarComponent } from './registrar/registrar.component';
 
 const routes: Routes = [
   {path: '', component: SesionComponent},
-  {path: 'home', component: SesionComponent},
+  {path: 'inicio', component: SesionComponent},
   {path: 'register', component: RegistrarComponent}
 ];
 
