@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SesionComponent } from './sesion/sesion.component';
+import { RegistrarComponent } from './registrar/registrar.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: SesionComponent},
+  {path: 'home', component: SesionComponent},
+  {path: 'register', component: RegistrarComponent}
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
